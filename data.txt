@@ -344,3 +344,252 @@ Observer's paradox: The outcome of an event or experiment is influenced by the p
 Taeuber Paradox: A paradox in demography in which lessening mortality for a particular cause results in a surprisingly small increase in life expectancy and no change in overall mortality.
 
 ALL PARADOXES IN DETAIL
+
+The barbershop paradox was proposed by Lewis Carroll in a three-page essay titled "A Logical Paradox", which appeared in the July 1894 issue of Mind. The name comes from the "ornamental" short story that Carroll uses in the article to illustrate the paradox. It existed previously in several alternative forms in his writing and correspondence, not always involving a barbershop. Carroll described it as illustrating "a very real difficulty in the Theory of Hypotheticals".[1] From the viewpoint of modern logic, it is seen not so much as a paradox than as a simple logical error. It is of interest now mainly as an episode in the development of algebraic logical methods when these were not so widely understood (even among logicians), although the problem continues to be discussed in relation to theories of implication and modal logic.[2]
+
+The paradox
+In the story, Uncle Joe and Uncle Jim are walking to the barber shop. They explain that there are three barbers who live and work in the shop—Allen, Brown, and Carr—and some or all of them may be in. We are given two pieces of information from which to draw conclusions. Firstly, the shop is definitely open, so at least one of the barbers must be in. Secondly, Allen is said to be very nervous, so that he always brings Brown with him where ever he goes.
+
+Now, according to Uncle Jim, Carr is a very good barber, and he wants to know whether Carr will be there to shave him. Uncle Joe insists that Carr is certain to be in, and claims that he can prove it logically. Uncle Jim demands this proof.
+
+Uncle Joe gives his argument as follows:
+
+Suppose that Carr is out. We will show that this assumption produces a contradiction. If Carr is out, then we know this: "If Allen is out, then Brown is in", because there has to be someone in "to mind the shop." But, we also know that whenever Allen goes out he takes Brown with him, so as a general rule, "If Allen is out, then Brown is out". The two statements we have arrived at are incompatible, because if Allen is out then Brown cannot be both In (according to one) and Out (according to the other). There is a contradiction. So we must abandon our hypothesis that Carr is Out, and conclude that Carr must be in.
+
+Uncle Jim's response is that this conclusion is not warranted. The correct conclusion to draw from the incompatibility of the two "hypotheticals" is that what is hypothesized in them (that Allen is out) must be false under our assumption that Carr is out. Then our logic simply allows us to arrive at the conclusion "If Carr is out, then Allen must necessarily be in".
+
+"What the Tortoise Said to Achilles",[1] written by Lewis Carroll in 1895 for the philosophical journal Mind,[1] is a brief allegorical dialogue on the foundations of logic.[1] The title alludes to one of Zeno's paradoxes of motion,[2] in which Achilles could never overtake the tortoise in a race. In Carroll's dialogue, the tortoise challenges Achilles to use the force of logic to make him accept the conclusion of a simple deductive argument. Ultimately, Achilles fails, because the clever tortoise leads him into an infinite regression.[1]
+
+Summary of the dialogue
+The discussion begins by considering the following logical argument:[1][3]
+
+A: "Things that are equal to the same are equal to each other" (a Euclidean relation)
+B: "The two sides of this triangle are things that are equal to the same"
+Therefore, Z: "The two sides of this triangle are equal to each other"
+The tortoise accepts premises A and B as true but not the hypothetical:
+
+C: "If A and B are true, Z must be true"[1][3]
+The Tortoise claims that it is not "under any logical necessity to accept Z as true". The tortoise then challenges Achilles to force it logically to accept Z as true. Instead of searching the tortoise’s reasons for not accepting C, Achilles asks it to accept C, which it does. After which, Achilles says:
+
+D: "If A and B and C are true, Z must be true"[1][3]
+The tortoise responds, "That's another Hypothetical, isn't it? And, if I failed to see its truth, I might accept A and B and C, and still not accept Z, mightn't I?"[1][3]
+
+Again, instead of requesting reasons for not accepting D, he asks the tortoise to accept D. And again, it is "quite willing to grant it",[1][3] but it still refuses to accept Z. It then tells Achilles to write into his book,
+
+E: If A and B and C and D are true, Z must be true.
+Following this, the Tortoise says: "until I’ve granted that [i.e., E], of course I needn’t grant Z. So it's quite a necessary step".[1] With a touch of sadness, Achilles sees the point.[1][3]
+
+The story ends by suggesting that the list of premises continues to grow without end, but without explaining the point of the regress.[1][3]
+
+The drinker paradox (also known as the drinker's theorem, the drinker's principle, or the drinking principle) is a theorem of classical predicate logic that can be stated as "There is someone in the pub such that, if he or she is drinking, then everyone in the pub is drinking." It was popularised by the mathematical logician Raymond Smullyan, who called it the "drinking principle" in his 1978 book What Is the Name of this Book?[1]
+
+The apparently paradoxical nature of the statement comes from the way it is usually stated in natural language. It seems counterintuitive both that there could be a person who is causing the others to drink, or that there could be a person such that all through the night that one person were always the last to drink. The first objection comes from confusing formal "if then" statements with causation (see Correlation does not imply causation or Relevance logic for logics that demand relevant relationships between premise and consequent, unlike classical logic assumed here). The formal statement of the theorem is timeless, eliminating the second objection because the person the statement holds true for at one instant is not necessarily the same person it holds true for at any other instant.[citation needed]
+
+The formal statement of the theorem is
+
+∃
+x
+∈
+P
+,
+[
+D
+(
+x
+)
+→
+∀
+y
+∈
+P
+,
+D
+(
+y
+)
+]
+.
+{\displaystyle \exists x\in P,[D(x)\rightarrow \forall y\in P,D(y)].\,}
+where D is an arbitrary predicate and P is an arbitrary nonempty set.
+
+Proofs
+The proof begins by recognizing it is true that either everyone in the pub is drinking, or at least one person in the pub is not drinking. Consequently, there are two cases to consider:[1][2]
+
+Suppose everyone is drinking. For any particular person, it cannot be wrong to say that if that particular person is drinking, then everyone in the pub is drinking—because everyone is drinking. Because everyone is drinking, then that one person must drink because when that person drinks everybody drinks, everybody includes that person.[1][2]
+Otherwise at least one person is not drinking. For any nondrinking person, the statement if that particular person is drinking, then everyone in the pub is drinking is formally true: its antecedent ("that particular person is drinking") is false, therefore the statement is true due to the nature of material implication in formal logic, which states that "If P, then Q" is always true if P is false.[1][2] (These kinds of statements are said to be vacuously true.)
+A slightly more formal way of expressing the above is to say that, if everybody drinks, then anyone can be the witness for the validity of the theorem. And if someone does not drink, then that particular non-drinking individual can be the witness to the theorem's validity.[3]
+
+Explanation of paradoxicality
+The paradox is ultimately based on the principle of formal logic that the statement 
+A
+→
+B
+{\displaystyle A\rightarrow B} is true whenever A is false, i.e., any statement follows from a false statement[1] (ex falso quodlibet).
+
+What is important to the paradox is that the conditional in classical (and intuitionistic) logic is the material conditional. It has the property that 
+A
+→
+B
+{\displaystyle A\rightarrow B} is true only if B is true or if A is false (in classical logic, but not intuitionistic logic, this is also a sufficient condition).
+
+So as it was applied here, the statement "if they are drinking, everyone is drinking" was taken to be correct in one case, if everyone was drinking, and in the other case, if they were not drinking—even though their drinking may not have had anything to do with anyone else's drinking.
+
+Free choice is a phenomenon in natural language where a linguistic disjunction appears to receive a logical conjunctive interpretation when it interacts with a modal operator. For example, the following English sentences can be interpreted to mean that the addressee can watch a movie and that they can also play video games, depending on their preference:[1]
+
+You can watch a movie or play video games.
+You can watch a movie or you can play video games.
+Free choice inferences are a major topic of research in formal semantics and philosophical logic because they are not valid in classical systems of modal logic. If they were valid, then the semantics of natural language would validate the Free Choice Principle.
+
+Free Choice Principle: 
+(
+◊
+P
+∨
+◊
+Q
+)
+→
+(
+◊
+P
+∧
+◊
+Q
+)
+{\displaystyle (\Diamond P\lor \Diamond Q)\rightarrow (\Diamond P\land \Diamond Q)}
+This symbolic logic formula above is not valid in classical modal logic: Adding this principle as an axiom to standard modal logics would allow one to conclude 
+◊
+Q
+{\displaystyle \Diamond Q} from 
+◊
+P
+{\displaystyle \Diamond P}, for any 
+P
+{\displaystyle P} and 
+Q
+{\displaystyle Q}. This observation is known as the Paradox of Free Choice.[1][2] To resolve this paradox, some researchers have proposed analyses of free choice within nonclassical frameworks such as dynamic semantics, linear logic, alternative semantics, and inquisitive semantics.[1][3][4] Others have proposed ways of deriving free choice inferences as scalar implicatures which arise on the basis of classical lexical entries for disjunction and modality.[1][5][6][7]
+
+Free choice inferences are most widely studied for deontic modals, but also arise with other flavors of modality as well as imperatives, conditionals, and other kinds of operators.[1][8][9][4] Indefinite noun phrases give rise to a similar inference which is also referred to as "free choice" though researchers disagree as to whether it forms a natural class with disjunctive free choice.[9][10]
+
+The paradoxes of material implication are a group of true formulae involving material conditionals whose translations into natural language are intuitively false when the conditional is translated as "if ... then ...". A material conditional formula 
+P
+→
+Q
+{\displaystyle P\rightarrow Q} is true unless 
+P
+{\displaystyle P} is true and 
+Q
+{\displaystyle Q} is false. If natural language conditionals were understood in the same way, that would mean that the sentence "If the Nazis had won World War Two, everybody would be happy" is vacuously true. Given that such problematic consequences follow from a seemingly correct assumption about logic, they are called paradoxes. They demonstrate a mismatch between classical logic and robust intuitions about meaning and reasoning.[1]
+
+Paradox of entailment
+As the best known of the paradoxes, and most formally simple, the paradox of entailment makes the best introduction.
+
+In natural language, an instance of the paradox of entailment arises:
+
+It is raining
+And
+
+It is not raining
+Therefore
+
+George Washington is made of rakes.
+This arises from the principle of explosion, a law of classical logic stating that inconsistent premises always make an argument valid; that is, inconsistent premises imply any conclusion at all. This seems paradoxical because although the above is a logically valid argument, it is not sound (not all of its premises are true).
+
+Construction
+Validity is defined in classical logic as follows:
+
+An argument (consisting of premises and a conclusion) is valid if and only if there is no possible situation in which all the premises are true and the conclusion is false.
+For example a valid argument might run:
+
+If it is raining, water exists (1st premise)
+It is raining (2nd premise)
+Water exists (Conclusion)
+In this example there is no possible situation in which the premises are true while the conclusion is false. Since there is no counterexample, the argument is valid.
+
+But one could construct an argument in which the premises are inconsistent. This would satisfy the test for a valid argument since there would be no possible situation in which all the premises are true and therefore no possible situation in which all the premises are true and the conclusion is false.
+
+For example an argument with inconsistent premises might run:
+
+It is definitely raining (1st premise; true)
+It is not raining (2nd premise; false)
+George Washington is made of rakes (Conclusion)
+As there is no possible situation where both premises could be true, then there is certainly no possible situation in which the premises could be true while the conclusion was false. So the argument is valid whatever the conclusion is; inconsistent premises imply all conclusions.
+
+Simplification
+The classical paradox formulae are closely tied to conjunction elimination,
+(
+p
+∧
+q
+)
+→
+p
+{\displaystyle (p\land q)\to p}which can be derived from the paradox formulae, for example from (1) by importation. In addition, there are serious problems with trying to use material implication as representing the English "if ... then ...". For example, the following are valid inferences:
+
+(
+p
+→
+q
+)
+∧
+(
+r
+→
+s
+)
+ 
+⊢
+ 
+(
+p
+→
+s
+)
+∨
+(
+r
+→
+q
+)
+{\displaystyle (p\to q)\land (r\to s)\ \vdash \ (p\to s)\lor (r\to q)}
+(
+p
+∧
+q
+)
+→
+r
+ 
+⊢
+ 
+(
+p
+→
+r
+)
+∨
+(
+q
+→
+r
+)
+{\displaystyle (p\land q)\to r\ \vdash \ (p\to r)\lor (q\to r)}
+but mapping these back to English sentences using "if" gives paradoxes.
+
+The first might be read "If John is in London then he is in England, and if he is in Paris then he is in France. Therefore, it is true that either (a) if John is in London then he is in France, or (b) if he is in Paris then he is in England." Using material implication, if John is not in London then (a) is true; whereas if he is in London then, because he is not in Paris, (b) is true. Either way, the conclusion that at least one of (a) or (b) is true is valid.
+
+But this does not match how "if ... then ..." is used in natural language: the most likely scenario in which one would say "If John is in London then he is in England" is if one does not know where John is, but nonetheless knows that if he is in London, he is in England. Under this interpretation, both premises are true, but both clauses of the conclusion are false.
+
+The second example can be read "If both switch A and switch B are closed, then the light is on. Therefore, it is either true that if switch A is closed, the light is on, or that if switch B is closed, the light is on." Here, the most likely natural-language interpretation of the "if ... then ..." statements would be "whenever switch A is closed, the light is on," and "whenever switch B is closed, the light is on." Again, under this interpretation both clauses of the conclusion may be false (for instance in a series circuit, with a light that comes on only when both switches are closed).
+
+The lottery paradox[1] arises from Henry E. Kyburg Jr. considering a fair 1,000-ticket lottery that has exactly one winning ticket. If that much is known about the execution of the lottery, it is then rational to accept that some ticket will win.
+
+Suppose that an event is considered "very likely" only if the probability of it occurring is greater than 0.99. On those grounds, it is presumed to be rational to accept the proposition that ticket 1 of the lottery will not win. Since the lottery is fair, it is rational to accept that ticket 2 will not win either. Indeed, it is rational to accept for any individual ticket i of the lottery that ticket i will not win. However, accepting that ticket 1 will not win, accepting that ticket 2 will not win, and so on until accepting that ticket 1,000 will not win entails that it is rational to accept that no ticket will win, which entails that it is rational to accept the contradictory proposition that one ticket wins and no ticket wins.
+
+The lottery paradox was designed to demonstrate that three attractive principles governing rational acceptance lead to contradiction:
+
+It is rational to accept a proposition that is very likely true.
+It is irrational to accept a proposition that is known to be inconsistent and is jointly inconsistent.
+If it is rational to accept a proposition A and it is rational to accept another proposition A', it is rational to accept A and A'.
+The paradox remains of continuing interest because it raises several issues at the foundations of knowledge representation and uncertain reasoning: the relationships between fallibility, corrigible belief and logical consequence; the roles that consistency, statistical evidence and probability play in belief fixation; the precise normative force that logical and probabilistic consistency have on rational belief.
+

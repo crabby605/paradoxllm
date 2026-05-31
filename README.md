@@ -1,3 +1,9 @@
+# Archived! contains some very questionable code from the early days and a lot of youtube tutorials.
+
+
+
+
+
 # Small Semi-Functional LLM on Colab
 
 This repository provides a small Language Model (LLM) demonstration using Google Colab. The LLM is hosted and executed in a Colab notebook, allowing users to interact with it easily without the need for local installations.
